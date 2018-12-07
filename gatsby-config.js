@@ -33,7 +33,6 @@ module.exports = {
     title: config.siteTitle,
     description: config.siteDescription,
     siteUrl: config.siteUrl,
-    pathPrefix: config.pathPrefix,
     algolia: {
       appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
       searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
@@ -46,7 +45,13 @@ module.exports = {
     }
   },
   plugins: [
-    `gatsby-plugin-react-next`,
+    //`gatsby-plugin-jss`,
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/layouts/`)
+      }
+    },
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
