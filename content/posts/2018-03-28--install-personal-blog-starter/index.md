@@ -7,7 +7,7 @@ cover: photo-1465070845512-2b2dbdc6df66-cover.jpg
 You install the starter like any other [GatsbyJS starter](https://www.gatsbyjs.org/docs/gatsby-starters/).
 
 ```
-gatsby new [NEW_SITE_DIRECTORY_FOR_YOUR_BLOG] https://github.com/greglobinski/gatsby-starter-personal-blog.git
+gatsby new [NEW_SITE_DIRECTORY_FOR_YOUR_BLOG] https://github.com/davidtnguyen/gatsby-starter-personal-blog.git
 ```
 
 ...

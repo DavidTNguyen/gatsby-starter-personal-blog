@@ -9,10 +9,10 @@ module.exports = {
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "David Nguyen",
+  authorTwitterAccount: "vietroadie",
   // info
-  infoTitle: "greg lobinski",
+  infoTitle: "david nguyen",
   infoTitleNote: "personal blog",
   // manifest.json
   manifestName: "PersonalBlog - a blog starter for GatsbyJS",
@@ -25,8 +25,8 @@ module.exports = {
   contactEmail: "john@doe.com",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "https://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/davidtnguyen" },
+    { name: "twitter", url: "https://twitter.com/vietroadie" },
+    { name: "facebook", url: "https://facebook.com/vietrooadie" }
   ]
 };
